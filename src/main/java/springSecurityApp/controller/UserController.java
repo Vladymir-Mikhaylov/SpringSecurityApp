@@ -1,9 +1,9 @@
-package net.proselyte.springsecurityapp.controller;
+package springSecurityApp.controller;
 
-import net.proselyte.springsecurityapp.model.User;
-import net.proselyte.springsecurityapp.service.SecurityService;
-import net.proselyte.springsecurityapp.service.UserService;
-import net.proselyte.springsecurityapp.validator.UserValidator;
+import springSecurityApp.model.User;
+import springSecurityApp.service.SecurityService;
+import springSecurityApp.service.UserService;
+import springSecurityApp.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Controller for {@link net.proselyte.springsecurityapp.model.User}'s pages.
+ * Controller for {@link User}'s pages.
  *
  * @author Eugene Suleimanov
  * @version 1.0

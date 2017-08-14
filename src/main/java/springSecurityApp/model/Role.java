@@ -1,4 +1,4 @@
-package net.proselyte.springsecurityapp.model;
+package springSecurityApp.model;
 
 
 import javax.persistence.*;

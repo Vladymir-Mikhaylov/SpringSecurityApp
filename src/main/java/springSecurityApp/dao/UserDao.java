@@ -1,6 +1,6 @@
-package net.proselyte.springsecurityapp.dao;
+package springSecurityApp.dao;
 
-import net.proselyte.springsecurityapp.model.User;
+import springSecurityApp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserDao extends JpaRepository<User, Long> {

@@ -1,4 +1,4 @@
-package net.proselyte.springsecurityapp.service;
+package springSecurityApp.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
